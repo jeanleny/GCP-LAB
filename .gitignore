@@ -1,0 +1,21 @@
+# Local .terraform directories (downloaded provider plugins, cache)
+**/.terraform/*
+
+# Terraform state files — these can contain sensitive values and are
+# machine-specific until we set up a remote backend (next step).
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files, generally used for local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
